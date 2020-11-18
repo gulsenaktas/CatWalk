@@ -1,0 +1,124 @@
+/* RESET */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/cat/cat\ pow.jpg);
+  background-color: rgba(255,255,255,0.8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Istok Web", sans-serif;
+  background-blend-mode: lighten;
+}
+
+/* HEADER Home STYLES */
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 5vh;
+}
+.logo {
+  flex: 1;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(32, 226, 226);
+  font-family: 'Amatic SC', cursive;
+}
+.logo a{
+  text-decoration: none;
+  color: rgb(32, 226, 226);
+}
+.navbar{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(97, 96, 96);
+  font-size: 13px;
+}
+
+/* HEADER About STYLES */
+.item.active{
+  text-decoration: underline;
+}
+.about-main-wrapper{
+  height: 80vh;
+  width: 50vw;
+  margin: auto;
+  margin-top: 150px;
+}
+
+/* MAIN STYLES */
+.main-wrap {
+  height: 80vh;
+  width: 50vw;
+  margin: auto;
+}
+button {
+  background-image: url(/cat/search.png);
+  background-size: cover;
+  border-style: none;
+  width: 50px;
+  height: 50px;
+  transition: filter 0.2s ease-in-out;
+}
+button:hover {
+filter: brightness(1.4);
+}
+.search-wrapper {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.form-wrapper{
+  display: flex;
+  align-items: center;
+}
+.search-box {
+  font-size: 1.3rem;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 50px;
+  width: 300px;
+}
+
+.list-wrapper {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.list-item {
+  margin-bottom: 2vh;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.point{
+  margin: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+}
+.offline {
+  background-color: rgb(58, 111, 207);
+}
+.online {
+  background-color: rgb(111, 247, 107);
+}
+
